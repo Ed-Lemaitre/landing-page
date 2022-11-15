@@ -91,12 +91,45 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
+    min-height: 300px;
+    justify-content: center;
 }
 
 .quote-text {
     display: flex;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-signature {
+    display: flex;
+    font-weight: 800;
+    margin-left: auto;
 }
 
 .footer {
     display: flex;
+    min-height: 200px;
+    background-color: #3883f6;
+    color: #e5e7eb;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-title {
+    display: flex;
+    font-weight: 800;
+    
+}
+
+.btn2 {
+    color: #e5e7eb;
+    background-color: #3883f6;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px 20px;
+    font-weight: 800;
 }
