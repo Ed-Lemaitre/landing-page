@@ -6,6 +6,11 @@ body {
 }
 
 
+.outer-header {
+    background-color: #1f2937;
+    display: flex;
+}
+
 .header, a, .first-content {
     text-decoration: none;
     color: #f9faf8;
@@ -16,27 +21,30 @@ body {
 .header {
     display: flex;
     align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
 }
 
 .logo {
     display: flex;
     font-size: 24px;
-    margin-right: auto;
-
+    
 }
 
 .header-links {
     color: #e5e7eb;
     font-size: 14px;
     display: flex;
-    gap: 24px;    
+    gap: 24px;
+    
 }
 
 .first-content  {
     display: flex;
     min-height: 300px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .title {
